@@ -927,7 +927,7 @@ class Ursula(Teacher, Character, Operator):
             self.block_until_ready()
 
         #
-        # Non-order dependant services
+        # Non-order dependent services
         #
 
         # Continuous bonded check now that Ursula is all ready to run

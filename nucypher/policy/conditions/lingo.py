@@ -576,7 +576,7 @@ class ReturnValueTest:
 
         if index is not None and (not isinstance(index, int) or index < 0):
             raise self.InvalidExpression(
-                f'"{index}" is not a permitted index. Must be a an non-negative integer.'
+                f'"{index}" is not a permitted index. Must be a non-negative integer.'
             )
 
         if not is_context_variable(value):

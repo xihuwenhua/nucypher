@@ -111,7 +111,7 @@ class EventScannerState(ABC):
 
         :param event: Symbolic dictionary of the event data
 
-        :return: Internal state structure that is the result of event tranformation.
+        :return: Internal state structure that is the result of event transformation.
         """
 
     @abstractmethod

@@ -345,7 +345,7 @@ class Keystore:
     @classmethod
     def import_secure(cls, key_material: bytes, password: str, keystore_dir: Optional[Path] = None) -> 'Keystore':
         """
-        Generate a Keystore using a a custom pre-secured entropy blob.
+        Generate a Keystore using a custom pre-secured entropy blob.
         This method of keystore creation does not generate a mnemonic phrase - it is assumed
         that the provided blob is recoverable and secure.
         """
